@@ -1,3 +1,4 @@
+/*Colocando imagem de background no corpo do site, deixando ela fixa e escondendo a barra de rolagem no eixo "x"*/
 body {
     background-color: aliceblue;
     background-image: url("img/imgbg3.png");
@@ -7,6 +8,7 @@ body {
     overflow-x: hidden;
 }
 
+/*ajuste do container principal para ficar sempre do tamanho da tela menos o tamanho da navbar*/
 .container {
     padding-left: 7%;
     padding-right: 7%;
@@ -23,6 +25,7 @@ body {
 
 }
 
+/*estilizando navbar e deixando ela fixa*/
 nav {
     display: flex;
     justify-content: space-between;
@@ -63,6 +66,7 @@ a:hover {
     width: 57px;
 }
 
+/*ajustes do menu da navbar*/
 .menu {
     list-style: none;
     display: flex;
@@ -93,6 +97,7 @@ a:hover {
     margin: 30px;
 }
 
+/*ajustes da div de formacao utilizando seletor via ID */
 #formacao h1 {
     font-size: 40px;
     margin: 15px;
