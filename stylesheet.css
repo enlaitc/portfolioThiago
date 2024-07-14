@@ -1,6 +1,6 @@
 body {
     background-color: aliceblue;
-    background-image: url("/img/imgbg3.png");
+    background-image: url("img/imgbg3.png");
     background-repeat: no-repeat;
     background-size: contain;
     background-attachment: fixed;
