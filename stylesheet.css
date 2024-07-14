@@ -1,0 +1,241 @@
+body {
+    background-color: aliceblue;
+    background-image: url("/img/imgbg3.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-attachment: fixed;
+    overflow-x: hidden;
+}
+
+.container {
+    padding-left: 7%;
+    padding-right: 7%;
+    height: calc(100vh - 40px);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.container img {
+    display: block;
+    width: 25%;
+
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: #DBE9F4;
+    padding-left: 2%;
+    padding-right: 2%;
+    height: 80px;
+    align-items: center;
+    position: fixed;
+    width: 96%;
+    top: 0;
+    left: 0;
+}
+
+nav a {
+    font-size: 21px;
+}
+
+.redes {
+    display: flex;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    color: black;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #6d6c6c;
+    transition: .2s;
+}
+
+.redes img {
+    width: 57px;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 35px;
+    padding: 0;
+}
+
+.sobre {
+    display: flex;
+    flex-direction: column;
+    width: 55%;
+}
+
+.sobre h1 {
+    font-size: 60px;
+}
+
+.sobre p {
+    font-size: 18px;
+}
+
+.base {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    margin: 30px;
+}
+
+#formacao h1 {
+    font-size: 40px;
+    margin: 15px;
+}
+
+#formacao h3 {
+    font-size: 25px;
+    margin: 15px;
+}
+
+#formacao p {
+    font-size: 17px;
+    margin: 15px;
+}
+
+.portfolio {
+    display: flex;
+}
+
+#contato {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#contato h1 {
+    font-size: 55px;
+    padding: 50px;
+    text-align: center;
+}
+
+#portfolio {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#portfolio h1 {
+    font-size: 55px;
+    padding: 50px;
+    text-align: center;
+}
+
+#portfolio h2 {
+    font-size: 33px;
+    margin: 0px;
+}
+
+#portfolio a img {
+    width: 25px;
+    padding-right: 7px;
+}
+
+#portfolio a {
+    display: flex;
+    font-size: 17px;
+    margin: 5px;
+    align-items: center;
+}
+
+#portfolio a:hover {
+    color: #0078D4;
+}
+
+form {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #DBE9F4;
+    width: 500px;
+    border-radius: 6px;
+
+}
+
+form input {
+    width: 310px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-style: none;
+    border-radius: 4px;
+}
+
+form label {
+    font-size: 17px;
+}
+
+form textarea {
+    width: 310px;
+    height: 150px;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-style: none;
+    border-radius: 4px;
+}
+
+form div {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+form button {
+    padding: 15px;
+    cursor: pointer;
+    font-size: 16px;
+    background-color: white;
+    margin-bottom: 50px;
+    border-style: none;
+    border-radius: 4px;
+}
+
+.footer {
+    background-color: #DBE9F4;
+    padding: 50px;
+
+}
+
+.footer img {
+    width: 25px;
+}
+
+.footer a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer a:hover {
+    color: #0078D4;
+}
+
+.copy_right {
+    text-decoration: none;
+    color: #161616;
+}
+
+.copy_right span {
+    font-weight: bold;
+    cursor: pointer;
+    margin-left: .5em;
+}
+
+.copy_right svg {
+    font-size: 1em;
+}
